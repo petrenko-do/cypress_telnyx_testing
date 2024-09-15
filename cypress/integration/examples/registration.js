@@ -17,7 +17,7 @@ describe('Registration', () => {
         cy.get('#header-sign-up').click()
         cy.viewport(1920, 1080)
 
-        cy.wait(2000)
+        cy.wait(1000)
 
         let n = randomString(5)
         function randomString(i) {
