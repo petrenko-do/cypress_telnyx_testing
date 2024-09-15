@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "init": "^0.1.2"
+  },
+  "devDependencies": {
+    "cypress": "^13.14.2"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cloud": "cypress run --record --key a60638d3-2c67-441c-8916-f35495fa6420"
+  }
+}
