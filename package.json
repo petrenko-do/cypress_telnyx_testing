@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "express": "^4.21.0",
     "init": "^0.1.2"
   },
   "devDependencies": {
@@ -7,6 +8,7 @@
   },
   "scripts": {
     "cy:open": "cypress open",
-    "cloud": "cypress run --record --key a60638d3-2c67-441c-8916-f35495fa6420"
+    "cloud": "cypress run --record --key a60638d3-2c67-441c-8916-f35495fa6420",
+    "start": "node server.js"
   }
 }
