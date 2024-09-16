@@ -4,7 +4,6 @@
 describe('Check filtering in the dropdown menu on the "Solutions" page', () => {
 
     it('Check filtering in the dropdown menu on the "Solutions" page', () => {
-
         Cypress.on('uncaught:exception', (err, runnable) => {
             return false
         })

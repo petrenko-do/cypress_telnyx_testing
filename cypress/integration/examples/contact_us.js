@@ -5,10 +5,7 @@
 describe('Contact us', () => {
 
     it('Check "Contact us" form', () => {
-        // cy.visit(Cypress.env('url'))
-
         Cypress.on('uncaught:exception', (err, runnable) => {
-            // возвращаем false, чтобы предотвратить падение теста
             return false
         })
         cy.viewport(1920, 1080)
@@ -43,6 +40,5 @@ describe('Contact us', () => {
     
 
 
-    // })
 
 })
